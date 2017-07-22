@@ -15,7 +15,7 @@ public class MapperService {
 	public void hashMessages(File file, MessagePool parsedJsonObject) {
 		hashMap.put(file.getName(), parsedJsonObject);
 		
-		System.out.println("Values are Hashed into file");
+		System.out.println("Values are Mapped into Hashmap. ");
 		Filenames.add(file.getName());
 		//System.out.println(hashMap.get("file1.txt").getMaxDiskUsage());
 		//System.out.println(hashMap.get("file2.txt").getMaxDiskUsage());

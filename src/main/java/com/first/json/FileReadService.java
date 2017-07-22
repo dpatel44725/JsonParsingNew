@@ -15,6 +15,7 @@ public class FileReadService implements Runnable {
 	@Override
 	public void run() {
 		
+			System.out.println("Starting The Application : ");
 			parsed.JsonPars(new File("src/main/resources/file1.txt"));
 			parsed.JsonPars(new File("src/main/resources/file2.txt"));
 			parsed.JsonPars(new File("src/main/resources/file3.txt"));
