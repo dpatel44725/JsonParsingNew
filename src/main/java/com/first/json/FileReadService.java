@@ -15,10 +15,10 @@ public class FileReadService implements Runnable {
 	@Override
 	public void run() {
 		
-			parsed.JsonPars(new File("file1.txt"));
-			parsed.JsonPars(new File("file2.txt"));
-			parsed.JsonPars(new File("file3.txt"));
-			parsed.JsonPars(new File("file4.txt"));
+			parsed.JsonPars(new File("src/main/resources/file1.txt"));
+			parsed.JsonPars(new File("src/main/resources/file2.txt"));
+			parsed.JsonPars(new File("src/main/resources/file3.txt"));
+			parsed.JsonPars(new File("src/main/resources/file4.txt"));
 			
 			
 		}
