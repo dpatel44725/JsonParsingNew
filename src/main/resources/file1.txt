@@ -1,0 +1,175 @@
+{
+  "config-status": "Enabled (Primary)",
+  "max-disk-usage": 350000,
+  "spool-while-charging": false,
+  "spool-without-flash": false,
+  "using-internal-disk": false,
+  "disk-array-wwn": "23533656665383964",
+  "operational-status": "AD-Active",
+  "datapath-up": true,
+  "synchronization-status": "Synced",
+  "max-message-count": "500M",
+  "message-count-utilization-percentage": "1.44",
+  "transaction-resource-utilization-percentage": "0.00",
+  "transacted-session-resource-utilization-percentage": "0.00",
+  "transacted-session-count-utilization-percentage": "0.00",
+  "delivered-unacked-msgs-utilization-percentage": "0.00",
+  "spool-files-utilization-percentage": "0.06",
+  "active-disk-partition-usage": "0.83",
+  "standby-disk-partition-usage": "0.09",
+  "next-message-id": 7769418369,
+  "num-delete-in-progress": 0,
+  "max-message-spool-entities": 16000,
+  "message-spool-entities-allowed-by-qendpt": 16000,
+  "message-spool-entities-used-by-queue": 5854,
+  "message-spool-entities-used-by-dte": 60,
+  "transacted-sessions-used": 0,
+  "max-transacted-sessions": 16000,
+  "transacted-sessions-local-used": 0,
+  "transacted-sessions-xa-used": 0,
+  "transactions-used": 0,
+  "max-transactions": 50000,
+  "transactions-local-used": 0,
+  "transactions-xa-used": 0,
+  "sequenced-topics-used": 1,
+  "max-sequenced-topics": 3000,
+  "queue-topic-subscriptions-used": 26529,
+  "max-queue-topic-subscriptions": 100000,
+  "ingress-flow-count": 15,
+  "ingress-flows-allowed": 16000,
+  "flows-allowed": 16000,
+  "active-flow-count": 596,
+  "inactive-flow-count": 0,
+  "browser-flow-count": 0,
+  "cvrid-config-ready": true,
+  "card-ready": true,
+  "flash-module-ready": true,
+  "power-module-ready": true,
+  "card-contents-ready": true,
+  "local-contents-key": "192.168.32.150:132,85",
+  "mate-contents-key": "192.168.32.150:132,85",
+  "router-schema-match": true,
+  "disk-ready": true,
+  "disk-contents-status": "Ready",
+  "disk-key-primary": "192.168.32.150:132,85",
+  "disk-key-backup": "192.168.32.150:130,85",
+  "last-failure-reason": "Local ADB Key Invalid",
+  "last-failure-time": "Jun 17 2016 16:51:26 BST",
+  "current-rfad-usage": 0.00726509,
+  "current-disk-usage": 4009.04,
+  "current-persist-usage": 4009.05,
+  "rfad-messages-currently-spooled": 77,
+  "disk-messages-currently-spooled": 7251465,
+  "total-messages-currently-spooled": 7251542,
+  "disk-infos": {"disk-info": [
+    {
+      "partition": "Active",
+      "blocks": 734557236,
+      "used": 5768096,
+      "available": 691475772,
+      "use": "0",
+      "mounted-on": "/usr/sw/externalSpool/p1"
+    },
+    {
+      "partition": "Standby",
+      "blocks": 813621580,
+      "used": 658076,
+      "available": 771633884,
+      "use": "0",
+      "mounted-on": "/usr/sw/externalSpool/p2"
+    }
+  ]},
+  "spool-files": [{
+    "primary-used": 640,
+    "primary-used-percent": 0,
+    "primary-pending-delete": 0,
+    "backup-used": 0,
+    "backup-used-percent": 0,
+    "backup-pending-delete": 21,
+    "total-maximum": 999999,
+    "total-used": 640,
+    "total-available": 999359,
+    "total-used-percent": 0,
+    "total-pending-delete": 21
+  }],
+  "cache-status": "N/A",
+  "max-cache-usage": 20,
+  "current-cache-usage": "N/A",
+  "cache-high-water-mark": "N/A",
+  "event-configuration": {"event-thresholds": [
+    {
+      "name": "endpoints",
+      "set-value": 12800,
+      "clear-value": 9600,
+      "set-percentage": 80,
+      "clear-percentage": 60
+    },
+    {
+      "name": "egress-flows",
+      "set-value": 12800,
+      "clear-value": 9600,
+      "set-percentage": 80,
+      "clear-percentage": 60
+    },
+    {
+      "name": "ingress-flows",
+      "set-value": 12800,
+      "clear-value": 9600,
+      "set-percentage": 80,
+      "clear-percentage": 60
+    },
+    {
+      "name": "spool-usage",
+      "set-value": 70000,
+      "clear-value": 35000,
+      "set-percentage": 20,
+      "clear-percentage": 10
+    },
+    {
+      "name": "transacted-sessions",
+      "set-value": 12800,
+      "clear-value": 9600,
+      "set-percentage": 80,
+      "clear-percentage": 60
+    },
+    {
+      "name": "transactions",
+      "set-value": 40000,
+      "clear-value": 30000,
+      "set-percentage": 80,
+      "clear-percentage": 60
+    },
+    {
+      "name": "cache-usage",
+      "set-value-float": 16,
+      "clear-value-float": 12,
+      "set-percentage": 80,
+      "clear-percentage": 60
+    },
+    {
+      "name": "transacted-session-resources",
+      "set-percentage": 80,
+      "clear-percentage": 60
+    },
+    {
+      "name": "spool-files",
+      "set-percentage": 20,
+      "clear-percentage": 10
+    },
+    {
+      "name": "message-count",
+      "set-percentage": 20,
+      "clear-percentage": 10
+    },
+    {
+      "name": "delivered-unacked",
+      "set-percentage": 50,
+      "clear-percentage": 40
+    },
+    {
+      "name": "disk-usage",
+      "set-percentage": 40,
+      "clear-percentage": 10
+    }
+  ]}
+}
